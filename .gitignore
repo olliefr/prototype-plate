@@ -1,2 +1,9 @@
-OldVersions/
-*.lck
+
+# Autodesk Inventor lock files. Should only exist when Inventor is running.
+**/*.lck
+
+# Autodesk Inventor built-in revision control
+**/OldVersions/**
+
+# Instructions for 3D printer
+**/*.gcode
